@@ -37,6 +37,9 @@
     <Filter Include="Game\Entity\Component\Collider">
       <UniqueIdentifier>{b062126d-65eb-4f7c-94c4-67d79ad6646a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Entity\Component\Animation">
+      <UniqueIdentifier>{ca073027-8c1c-4a8b-bde1-a90011e0e93a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Game\Entity\Component\Animation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Game\Entity\Component\Animation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

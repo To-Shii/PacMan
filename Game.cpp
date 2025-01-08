@@ -35,6 +35,6 @@ void Game::Loop()
 		windowGame.clear();
 		selectedLevel->Update();
 		windowGame.display();
-		SLEEP(500ms);
+		SLEEP(250ms);
 	}
 }
